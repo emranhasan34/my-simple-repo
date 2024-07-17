@@ -1,0 +1,47 @@
+/* commont styles */
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+.btn-primary{
+ 
+}
+/* header styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav > h2{
+    text-align: center;
+}
+nav img{
+    margin-left: 20px;
+}
+.nav-title {
+    color: #181818;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav  > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 30px ;
+     
+}
+nav a{
+    text-decoration: none;
+    color: #181818;
+}
+/* header related styles */
+ .container img{
+   width: 100%;
+ }
+ 
